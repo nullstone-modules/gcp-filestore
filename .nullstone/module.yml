@@ -1,0 +1,13 @@
+org_name: nullstone
+name: gcp-filestore
+friendly_name: Filestore
+description: Creates a Google Cloud Filestore
+category: datastore
+subcategory: ""
+provider_types:
+    - gcp
+platform: filestore
+subplatform: ""
+type: ""
+appCategories: []
+is_public: true
