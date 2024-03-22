@@ -8,8 +8,13 @@ output "filestore_name" {
   description = "string ||| The name of the Filestore instance."
 }
 
+output "filestore_tier" {
+  value       = google_filestore_instance.this.tier
+  description = "string ||| A tier of storage that this Filestore instance was created."
+}
+
 output "filestore_location" {
-  value = google_filestore_instance.this.location
+  value       = google_filestore_instance.this.location
   description = "string ||| The GCP location of the Filestore instance."
 }
 
